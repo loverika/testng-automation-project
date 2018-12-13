@@ -25,9 +25,9 @@ public class zohoTest {
 	
 	WebDriver driver=null;
 	WebDriverWait wait=null;
-	String path="/Users/orcuncanlilar/selenium/testing-maven/selenium-maven-excel-zoho/src/test/resources/config.properties";
+	String path="./src/test/resources/config.properties";
 	Properties prop;
-	String excelpath = "/users/orcuncanlilar/selenium/testing-maven/zohotestdata.xlsx";
+	String excelpath = "./src/test/resources/zohotestdata.xlsx";
 	Xls_Reader data = new Xls_Reader(excelpath);
 	Logger log = LogManager.getLogger(zohoTest.class.getName());
 	
